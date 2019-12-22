@@ -13,6 +13,8 @@
 		DABC2EC223AEF22E00B67351 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DABC2EC023AEF22E00B67351 /* Main.storyboard */; };
 		DABC2EC423AEF23400B67351 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DABC2EC323AEF23400B67351 /* Assets.xcassets */; };
 		DABC2EC723AEF23400B67351 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DABC2EC523AEF23400B67351 /* LaunchScreen.storyboard */; };
+		DABC2ECF23AF1EB900B67351 /* ShapesSkillLevelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABC2ECE23AF1EB900B67351 /* ShapesSkillLevelVC.swift */; };
+		DABC2ED123AF2A3D00B67351 /* ShapesGameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABC2ED023AF2A3D00B67351 /* ShapesGameVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		DABC2EC323AEF23400B67351 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DABC2EC623AEF23400B67351 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DABC2EC823AEF23400B67351 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DABC2ECE23AF1EB900B67351 /* ShapesSkillLevelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesSkillLevelVC.swift; sourceTree = "<group>"; };
+		DABC2ED023AF2A3D00B67351 /* ShapesGameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesGameVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				DABC2EC323AEF23400B67351 /* Assets.xcassets */,
 				DABC2EC523AEF23400B67351 /* LaunchScreen.storyboard */,
 				DABC2EC823AEF23400B67351 /* Info.plist */,
+				DABC2ECE23AF1EB900B67351 /* ShapesSkillLevelVC.swift */,
+				DABC2ED023AF2A3D00B67351 /* ShapesGameVC.swift */,
 			);
 			path = "Colors & More";
 			sourceTree = "<group>";
@@ -138,9 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DABC2ED123AF2A3D00B67351 /* ShapesGameVC.swift in Sources */,
 				DABC2EBF23AEF22E00B67351 /* ViewController.swift in Sources */,
 				DABC2EBB23AEF22E00B67351 /* AppDelegate.swift in Sources */,
 				DABC2EBD23AEF22E00B67351 /* SceneDelegate.swift in Sources */,
+				DABC2ECF23AF1EB900B67351 /* ShapesSkillLevelVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
